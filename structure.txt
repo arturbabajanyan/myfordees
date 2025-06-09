@@ -1,0 +1,17 @@
+restaurant-app/
+├── client/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── server/
+│   ├── server.js
+│   ├── models/
+│   │   └── User.js
+│   │   └── Order.js
+│   ├── routes/
+│   │   └── auth.js
+│   │   └── orders.js
+│   └── config/
+│       └── db.js
+├── .env
+├── package.json
