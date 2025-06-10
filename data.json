@@ -18,8 +18,9 @@
       "description": "Romaine lettuce, parmesan, croutons, and Caesar dressing.",
       "image": "https://via.placeholder.com/200x150?text=Caesar+Salad"
     }
-  ];
-  
+  ]
+},
+{
   "menu-test": [
     {
       "id": 1,
