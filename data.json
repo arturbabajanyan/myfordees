@@ -18,5 +18,25 @@
       "description": "Romaine lettuce, parmesan, croutons, and Caesar dressing.",
       "image": "https://via.placeholder.com/200x150?text=Caesar+Salad"
     }
+  ],
+  "menu-test": [
+    {
+      "id": 1,
+      "name": "Classic Cheeseburger",
+      "description": "Juicy beef patty, cheddar cheese, lettuce, tomato, and pickles.",
+      "image": "https://via.placeholder.com/200x150?text=Cheeseburger"
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "description": "Fresh mozzarella, tomatoes, and basil on a thin crust.",
+      "image": "https://via.placeholder.com/200x150?text=Margherita+Pizza"
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "description": "Romaine lettuce, parmesan, croutons, and Caesar dressing.",
+      "image": "https://via.placeholder.com/200x150?text=Caesar+Salad"
+    }
   ]
 }
