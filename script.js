@@ -34,23 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
       menuContainer.innerHTML = '<p>Error loading menu.</p>';
     });
   
-      data.menu-test.forEach(item => {
-        const div = document.createElement('div');
-        div.className = 'menuItem';
-        div.innerHTML = `
-          <img src="${item.image}" alt="${item.name}" />
-          <h3>${item.name}</h3>
-          <p>${item.description}</p>
-          <button onclick="addToOrder(${item.id})">Add to Order</button>
-        `;
-        menuContainer.appendChild(div);
-      });
-    })
-    .catch(error => {
-      console.error('Error loading menu:', error);
-      menuContainer.innerHTML = '<p>Error loading menu.</p>';
-    });
-
   // // Load menu items from data.json
   // fetch('data.json')
   //   .then(response => response.json())
